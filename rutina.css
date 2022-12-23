@@ -1,0 +1,151 @@
+#imagine1 {
+    height: 45%;
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    margin-bottom: 35px;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+h2{
+    color:white;
+    opacity: 0.9;
+}
+
+body {
+    background-color: #5F5C54;
+}
+
+h3 {
+    color: white;
+    opacity: 0.8;
+    margin-bottom: 12px;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+p {
+    color:white;
+    opacity: 0.7;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+h6{
+    color:#f3f6f4;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+#margine {
+    margin-left: 10px;
+}
+
+.margine {
+    margin-left: 40px;
+}
+
+#margine2 {
+    margin-left: 10px;
+    margin-top: 14px;
+    margin-bottom: 15px;
+}
+
+.margine2 {
+    margin-left: 40px;
+    padding-bottom: 80px;
+}
+
+small {
+    color:white;
+}
+
+@media only screen and (min-width:300px){
+    #tab {
+        display: none;
+       }
+       .navbar-toggler{
+          display:flex;
+       }
+    footer{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .spatiu{
+        margin-bottom: 15px;
+    }
+    small{
+        font-size: 12px;
+    }
+    .btn{
+        font-size: 12px;
+        margin: 0%;
+    }
+}
+
+@media only screen and (min-width:800px){
+    .navbar-toggler{
+        display: none;
+       }
+       #tab {
+          display: flex;
+       }
+       .d-inline-block{
+          height: 35px;
+          width: 45px;
+       }
+       .navbar-brand{
+          font-size: 20px;
+       }
+       .nav-link{
+          color: white;
+          font-size: 20px;
+          margin-top: 20px;
+       }
+       .navbar{
+        padding: 0%;
+        margin: 0%;
+       }
+       small{
+        font-size: 15px;
+     }
+     footer{
+        padding-top: 30px;
+        padding-bottom: 30px;
+     }
+     .footer{
+        margin: auto; 
+        width: 50%;
+     }
+     #footer1{
+        display: inline;
+        margin-left: 8px;
+        margin-right: -8px;
+        width: 50%;
+     }
+     #footer2{
+        display: inline;
+        margin-left: 8px;
+        width: 50%;
+    }
+     #footer3{
+        display: inline;
+        margin-left: 8px;
+        margin: auto;
+        width: 50%;
+     }
+    .btn{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:1500px) {
+    .footer{
+        margin-left: 600px;
+    }
+}
