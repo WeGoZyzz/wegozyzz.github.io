@@ -37,7 +37,7 @@ p {
     font-family: 'Montserrat' , sans-serif;
 }
 
-h6{
+h6,li{
     color:#f3f6f4;
     font-family: 'Montserrat' , sans-serif;
 }
@@ -105,7 +105,7 @@ small {
        .nav-link{
           color: white;
           font-size: 20px;
-          margin-top: 20px;
+          padding: 20px;
        }
        .navbar{
         padding: 0%;

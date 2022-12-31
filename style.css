@@ -2,7 +2,9 @@ html{
    height: 100%;
    width: 100%;
 }
-
+li{
+   font-family:'Montserrat' , sans-serif ;
+}
 .fixed-bg {
  background-image: url("https://upload.wikimedia.org/wikipedia/it/thumb/9/98/Patrick_Bateman.jpg/800px-Patrick_Bateman.jpg");
  min-height: 1000px;
@@ -48,7 +50,7 @@ small {
 
 @media only screen and (min-width:300px) {
    .fixed-bg{
-      min-height: 500px;
+      min-height: 800px;
    }
    #analiza{
       margin-top: 10px;
@@ -122,9 +124,31 @@ small {
       width: 100%;
    }
 }
-   @media only screen and (min-width:750px) {
+   @media only screen and (min-width:800px) {
+      .navbar-toggler{
+         display: none;
+        }
+        #tab {
+           display: flex;
+        }
+        .d-inline-block{
+           height: 35px;
+           width: 45px;
+        }
+        .navbar-brand{
+           font-size: 20px;
+        }
+        .nav-link{
+           color: white;
+           font-size: 20px;
+           padding: 20px;
+        }
+        .navbar{
+         padding: 0%;
+         margin: 0%;
+        }
    .fixed-bg {
-     min-height: 800px;     
+     min-height: 1000px;     
    }
    h1{
          font-size: 40px;
